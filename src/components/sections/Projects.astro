@@ -1,4 +1,5 @@
 ---
+import GitHub from '@/icons/GitHub.astro';
 import Section from '../Section.astro';
 import { projects } from '@/cv';
 ---
@@ -12,12 +13,26 @@ import { projects } from '@/cv';
                   <li>
                      <article>
                         <header>
-                           <h3>
-                              <a href={url} title={`View the project ${name}`}>
-                                 {name}
+                           <div>
+                              <h3>
+                                 <a
+                                    href={url}
+                                    title={`View the project ${name}`}
+                                 >
+                                    {name}
+                                 </a>
+                                 {/* {isActive && <span>&bull;</span>} */}
+                              </h3>
+                              <a
+                                 href={github}
+                                 title={`Call ${name}`}
+                                 target="_blank"
+                                 rel="noopener noreferrer"
+                                 class="icon"
+                              >
+                                 <GitHub />
                               </a>
-                              {isActive && <span>&bull;</span>}
-                           </h3>
+                           </div>
                            <p>{description}</p>
                         </header>
                         <footer>
@@ -36,6 +51,20 @@ import { projects } from '@/cv';
 </Section>
 
 <style>
+   header div {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+   }
+   .icon {
+      color: #888 !important;
+      display: inline-flex;
+      width: 16px;
+      height: 16px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 3px;
+   }
    ul {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -85,5 +114,14 @@ import { projects } from '@/cv';
       padding: 0.2rem 0.6rem;
       cursor: pointer;
       display: inline-flex;
+   }
+   @media print {
+      footer span {
+         border-radius: 6px;
+         background: #eee;
+         color: #444;
+         -webkit-print-color-adjust: exact; /* Para navegadores basados en WebKit */
+         print-color-adjust: exact; /* Para otros navegadores */
+      }
    }
 </style>

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" href="/w.png" />
+		<link rel="icon" href="/minimalist-portfolio-json/images/w.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>William Adrian Quiñones Castro</title>
 	</head>
@@ -59,7 +59,12 @@
 		}
 		.no-print{
 		display: none;
+		
 	}
 	}
-	
+	@media print {
+		article {
+         page-break-inside: avoid;
+      }
+	}
 </style>

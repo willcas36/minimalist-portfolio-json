@@ -2,14 +2,14 @@
    "basics": {
       "name": "William Adrian Quiñones Castro",
       "label": "Eng. Mechatronics and FullStack web developer",
-      "image": "photo2.jpg",
+      "image": "/minimalist-portfolio-json/images/photo2.jpg",
       "email": "willcas36@gmail.com",
       "phone": "+591 77493923",
-      "url": "",
+      "url": "https://willcas36.github.io/minimalist-portfolio-json/",
       "summary": "Mechatronics Engineer with a passion for programming. I enjoy creating and developing solutions that combine my technical background with the power of code. Currently, I’m diving deep into Full Stack development with TypeScript-React and Node-Express, as I work on projects that challenge me to learn more every day.",
       "location": {
          "address": "C. Angelica ascui # 555",
-         "postalCode": "",
+         "postalCode": "0000",
          "city": "Cochabamba",
          "countryCode": "ES",
          "region": "Bolivia"
@@ -18,7 +18,7 @@
          {
             "network": "LinkedIn",
             "username": "willcas36",
-            "url": "https://github.com/willcas36"
+            "url": "https://www.linkedin.com/in/william-quiñones-9323b7209/"
          },
          {
             "network": "GitHub",
@@ -230,6 +230,16 @@
          "keywords": ["Backend"]
       },
       {
+         "name": "Bootstrap",
+         "level": "Master",
+         "keywords": ["CSS Framework"]
+      },
+      {
+         "name": "Jquery",
+         "level": "Master",
+         "keywords": ["JavaScript Library"]
+      },
+      {
          "name": "Git",
          "level": "Avanzado",
          "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
@@ -296,10 +306,11 @@
             "Morgan",
             "Sequelize",
             "SuperTest",
-            "Swagger",
             "Swagger"
          ],
-         "url": "https://rest-apis-typescript-frontend-tau.vercel.app"
+         "url": "https://rest-apis-typescript-frontend-tau.vercel.app",
+         "github": "https://github.com/willcas36/rest_apis_typescript_frontend",
+         "githubAPI": "https://github.com/willcas36/rest_apis_typescript_backend"
       },
       {
          "name": "Recipe Finder",
@@ -314,19 +325,22 @@
             "Axios",
             "Headless UI"
          ],
-         "url": "https://joyful-mermaid-84368e.netlify.app"
+         "url": "https://joyful-mermaid-84368e.netlify.app",
+         "github": "https://github.com/willcas36/Recipe-Finder"
       },
       {
          "name": "Cryptocurrency Price Calculator",
          "description": "Fetches cryptocurrency prices in USD, MXN, and other currencies via an API. Utilizes Zustand for state management and Zod for response validation.",
          "highlights": ["TypeScript", "React", "Zustand", "Axios", "Zod"],
-         "url": "https://magical-crepe-780873.netlify.app"
+         "url": "https://magical-crepe-780873.netlify.app",
+         "github": "https://github.com/willcas36/Cryptocurrency-Price-Calculator"
       },
       {
          "name": "Weather App",
          "description": "API-driven project, focusing on validating requests, fetching data, and displaying API responses.",
          "highlights": ["TypeScript", "React", "Axios", "Valibot", "Zod"],
-         "url": "https://resplendent-crisp-db83f8.netlify.app"
+         "url": "https://resplendent-crisp-db83f8.netlify.app",
+         "github":"https://github.com/willcas36/Weather-App"
       },
       {
          "name": "Patient Manager",
@@ -342,7 +356,7 @@
             "UUID"
          ],
          "url": "https://marvelous-snickerdoodle-baa7e5.netlify.app",
-         "github": "https://github.com/midudev/pruebas-tecnicas"
+         "github": "https://github.com/willcas36/Patient-Manager"
       },
       {
          "name": "Expense and Budget Manager",
@@ -350,28 +364,32 @@
          "description": "A budgeting app using Context API for global state management, Includes expense filtering, a date-based calendar, charts, and more.",
          "highlights": ["TypeScript", "React", "Tailwind CSS", "Context API"],
          "url": "https://transcendent-griffin-1e50fb.netlify.app",
-         "github": "https://github.com/midudev/codi.link"
+         "github": "https://github.com/willcas36/Expense-and-Budget-Manager"
       },
       {
          "name": "Calorie Tracker",
          "isActive": true,
          "description": "This app features form handling, data processing, validation, and useReducer for managing complex states.",
          "highlights": ["TypeScript", "React", "Tailwind CSS"],
-         "url": "https://resilient-basbousa-34fa7d.netlify.app"
+         "url": "https://resilient-basbousa-34fa7d.netlify.app",
+         "github": "https://github.com/willcas36/Calorie-Tracker"
       },
       {
          "name": "Tip & Bill Calculator",
          "isActive": true,
          "description": "A restaurant-oriented project that allows users to create an order with itemized consumption and select the desired tip amount",
          "highlights": ["TypeScript", "React", "Tailwind CSS"],
-         "url": "https://profound-crumble-499efa.netlify.app"
+         "url": "https://profound-crumble-499efa.netlify.app",
+         "github": "https://github.com/willcas36/Tip-Bill-Calculator"
+
       },
       {
          "name": "guitarLA",
          "isActive": true,
          "description": "Guitar store with a real shopping cart featuring quantities, prices, and more",
          "highlights": ["TypeScript", "React", "Tailwind CSS"],
-         "url": "https://taupe-kangaroo-ec764d.netlify.app"
+         "url": "https://taupe-kangaroo-ec764d.netlify.app",
+         "github": "https://github.com/willcas36/guitarLA"
       }
    ]
 }
