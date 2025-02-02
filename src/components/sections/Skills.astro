@@ -1,0 +1,41 @@
+---
+import Section from '../Section.astro';
+import { skills } from '@/cv';
+---
+
+<Section title="Skills">
+   <ul>
+      {
+         skills.map(({ name }) => (
+            <li>
+               <span>{name}</span>
+            </li>
+         ))
+      }
+   </ul>
+</Section>
+<style>
+   ul {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 8px;
+   }
+   li {
+      border-radius: 6px;
+      /* background: #eee;
+      color: black; */
+      background: #424651da;
+      color: #f9f9fa;
+      font-weight: 500;
+      padding: 0.2rem 0.6rem;
+      cursor: pointer;
+   }
+   @media print {
+      li {
+         background: #424651 ;
+         color: #f9f9fa ;
+         -webkit-print-color-adjust: exact; /* Para navegadores basados en WebKit */
+         print-color-adjust: exact; /* Para otros navegadores */
+      }
+   }
+</style>
