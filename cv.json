@@ -29,13 +29,23 @@
    },
    "work": [
       {
-         "name": "Company",
-         "position": "President",
-         "url": "https://company.com",
-         "startDate": "2013-01-01",
-         "endDate": "2014-01-01",
-         "summary": "Description…",
-         "highlights": ["Started the company"]
+         "name": "Believe Solutions",
+         "position": "Backend Development Intern",
+         "url": "https://believesol.com",
+         "startDate": "2025-01-01",
+         "endDate": "2025-06-01",
+         "summary": "During my internship, I focused on backend development using Hono with TypeScript to build microservices, and NestJS for developing scalable monolithic APIs. I collaborated in a team environment, implemented RESTful endpoints, managed relational databases, and deployed services that integrated modern web technologies.",
+         "technologies": [
+            "Hono - Built APIs following a microservices architecture",
+            "NestJS - Developed scalable and modular backend APIs",
+            "Redis - Implemented caching mechanisms and session management",
+            "Drizzle ORM - Managed and queried relational databases using a modern, type-safe approach",
+            "Prisma ORM - Simplified database access with type-safe queries and migrations",
+            "MySQL - Used as a relational database for structured data storage",
+            "PostgreSQL - Worked with advanced SQL features for robust data handling",
+            "Swagger - Documented RESTful APIs for better team collaboration and external consumption",
+            "Insomnia - Tested and debugged APIs during development"
+         ]
       }
    ],
    "volunteer": [
@@ -74,7 +84,7 @@
          "endDate": "2024-01-01",
          "score": "9.0",
          "courses": [
-            "FullStack Web Development Bootcamp",
+            "FullStack Web Development",
             "React y TypeScript - +10 FullStack Projects",
             "Spring Boot 3, Spring 6 & Hibernate for Beginners",
             "Java Masterclass"
@@ -340,7 +350,7 @@
          "description": "API-driven project, focusing on validating requests, fetching data, and displaying API responses.",
          "highlights": ["TypeScript", "React", "Axios", "Valibot", "Zod"],
          "url": "https://resplendent-crisp-db83f8.netlify.app",
-         "github":"https://github.com/willcas36/Weather-App"
+         "github": "https://github.com/willcas36/Weather-App"
       },
       {
          "name": "Patient Manager",
@@ -381,7 +391,6 @@
          "highlights": ["TypeScript", "React", "Tailwind CSS"],
          "url": "https://profound-crumble-499efa.netlify.app",
          "github": "https://github.com/willcas36/Tip-Bill-Calculator"
-
       },
       {
          "name": "guitarLA",
