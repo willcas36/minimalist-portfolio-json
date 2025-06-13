@@ -4,7 +4,7 @@ const { title } = Astro.props;
 
 <section>
    {title && <h2>{title}</h2>}
-   <slot/>
+   <slot />
 </section>
 <style>
    section {
@@ -16,5 +16,18 @@ const { title } = Astro.props;
       font-weight: 700;
       line-height: 1.5;
       font-size: 1.5rem;
+      break-after: avoid;
+   }
+
+   @media print {
+      section {
+         page-break-inside: avoid;
+         break-inside: avoid;
+      }
+
+      h2 {
+         page-break-after: avoid;
+         break-after: avoid;
+      }
    }
 </style>
