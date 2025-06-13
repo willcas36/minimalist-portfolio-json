@@ -155,14 +155,62 @@
    ],
    "skills": [
       {
-         "name": "HTML",
-         "level": "Master",
-         "keywords": ["Desarrollo Web", "Frontend"]
+         "name": "Hono",
+         "level": "Intermediate",
+         "keywords": ["Microservices", "Backend", "APIs"]
       },
       {
-         "name": "CSS",
-         "level": "Master",
-         "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+         "name": "NestJS",
+         "level": "Intermediate",
+         "keywords": ["Backend", "APIs", "Modular", "Scalable"]
+      },
+      {
+         "name": "Redis",
+         "level": "Intermediate",
+         "keywords": ["Caching", "Session Management", "NoSQL"]
+      },
+      {
+         "name": "Drizzle ORM",
+         "level": "Intermediate",
+         "keywords": ["Relational Databases", "Type-Safe", "Modern", "Querying"]
+      },
+      {
+         "name": "Prisma ORM",
+         "level": "Intermediate",
+         "keywords": [
+            "Type-Safe",
+            "Database Access",
+            "Migrations",
+            "Relational Databases"
+         ]
+      },
+      {
+         "name": "MySQL",
+         "level": "Intermediate",
+         "keywords": ["Relational Databases", "Structured Data Storage"]
+      },
+      {
+         "name": "PostgreSQL",
+         "level": "Intermediate",
+         "keywords": [
+            "Relational Databases",
+            "Advanced SQL Features",
+            "Robust Data Handling"
+         ]
+      },
+      {
+         "name": "Swagger",
+         "level": "Intermediate",
+         "keywords": [
+            "API Documentation",
+            "Team Collaboration",
+            "External Consumption"
+         ]
+      },
+      {
+         "name": "Insomnia",
+         "level": "Intermediate",
+         "keywords": ["API Testing", "Debugging", "Development"]
       },
       {
          "name": "JavaScript",
@@ -178,6 +226,21 @@
             "Backend",
             "JavaScript Superset"
          ]
+      },
+      {
+         "name": "JAVA",
+         "level": "Master",
+         "keywords": ["Backend"]
+      },
+      {
+         "name": "Python",
+         "level": "Master",
+         "keywords": ["Backend"]
+      },
+      {
+         "name": "Microservices",
+         "level": "Master",
+         "keywords": ["Backend"]
       },
       {
          "name": "React",
@@ -220,6 +283,21 @@
          ]
       },
       {
+         "name": "Git",
+         "level": "Avanzado",
+         "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+      },
+      {
+         "name": "GitHub",
+         "level": "Avanzado",
+         "keywords": [
+            "Control de Versiones",
+            "Colaboración",
+            "Código Fuente",
+            "Git"
+         ]
+      },
+      {
          "name": "MongoDB",
          "level": "Avanzado",
          "keywords": [
@@ -228,11 +306,6 @@
             "Almacenamiento de Datos",
             "Backend"
          ]
-      },
-      {
-         "name": "JAVA",
-         "level": "Master",
-         "keywords": ["Backend"]
       },
       {
          "name": "SpringBoot",
@@ -250,21 +323,6 @@
          "keywords": ["JavaScript Library"]
       },
       {
-         "name": "Git",
-         "level": "Avanzado",
-         "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
-      },
-      {
-         "name": "GitHub",
-         "level": "Avanzado",
-         "keywords": [
-            "Control de Versiones",
-            "Colaboración",
-            "Código Fuente",
-            "Git"
-         ]
-      },
-      {
          "name": "Postman",
          "level": "Avanzado",
          "keywords": ["Control de Versiones"]
@@ -273,6 +331,16 @@
          "name": "English",
          "level": "Avanzado",
          "keywords": ["Language"]
+      },
+      {
+         "name": "HTML",
+         "level": "Master",
+         "keywords": ["Desarrollo Web", "Frontend"]
+      },
+      {
+         "name": "CSS",
+         "level": "Master",
+         "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
       }
    ],
    "languages": [
