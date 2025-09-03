@@ -30,11 +30,11 @@
    "work": [
       {
          "name": "Believe Solutions",
-         "position": "Backend Development Intern",
+         "position": "Backend Development",
          "url": "https://believesol.com",
-         "startDate": "2024-06-01",
+         "startDate": "2023-06-01",
          "endDate": "2025-06-01",
-         "summary": "During my internship, I focused on backend development using Hono with TypeScript to build microservices, and NestJS for developing scalable monolithic APIs. I collaborated in a team environment, implemented RESTful endpoints, managed relational databases, and deployed services that integrated modern web technologies.",
+         "summary": "During my time at Believe Solutions, I focused on backend development using Hono with TypeScript to build microservices, and NestJS for developing scalable monolithic APIs. I collaborated in a team environment, implemented RESTful endpoints, managed relational databases, and deployed services that integrated modern web technologies.",
          "technologies": [
             "Hono - Built APIs following a microservices architecture",
             "NestJS - Developed scalable and modular backend APIs",
