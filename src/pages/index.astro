@@ -14,21 +14,27 @@ const { name, label } = basics;
 ---
 
 <Layout title={`Portfolio of ${name} - ${label}`}>
-   <main>
-      <Hero />
-      <About />
-      <Experience />
-      <Education />
-      <Skills />
-      <Projects />
-   </main>
-   <KeyboardManager />
+  <main>
+    <Hero />
+    <About />
+    <Experience />
+    <Education />
+    <Skills />
+    <Projects />
+  </main>
+  <KeyboardManager />
 </Layout>
 
 <style>
-   main {
-      padding: 4rem;
-      margin: auto;
-      width: 100%;
-   }
+  main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
+
+  @media print {
+    main {
+      padding: 0 4rem;
+    }
+  }
 </style>

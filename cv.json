@@ -46,6 +46,15 @@
             "Swagger - Documented RESTful APIs for better team collaboration and external consumption",
             "Insomnia - Tested and debugged APIs during development"
          ]
+      },
+      {
+         "name": "Believe solutions",
+         "position": "Team Lead",
+         "url": "https://believesol.com",
+         "startDate": "2025-06-01",
+         "endDate": "2026-06-01",
+         "summary": "As a Team Lead at Believe Solutions, I coordinate and support a team of developers to deliver high-quality software solutions. I participate in project planning, perform code reviews, and help align technical decisions with business goals. I focus on clear communication, team collaboration, and strong technical execution.",
+         "technologies": []
       }
    ],
    "volunteer": [
